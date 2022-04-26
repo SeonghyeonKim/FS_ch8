@@ -15,6 +15,41 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="buffile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coseq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iobuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ledger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ledgpost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="length.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mastrans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="recfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="varlen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="buffile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -51,40 +86,5 @@
     <ClCompile Include="varlen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="buffile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="coseq.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="iobuffer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ledger.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ledgpost.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="length.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="mastrans.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="recfile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="strclass.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="strlist.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="varlen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

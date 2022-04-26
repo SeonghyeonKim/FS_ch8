@@ -6,6 +6,9 @@
 #define FALSE (0)
 #define TRUE (1)
 #endif
+
+#include<iostream>
+
 using namespace std;
 
 class Heap
@@ -101,7 +104,7 @@ int Heap::Compare (int i, int j)
 	else return strcmp(HeapArray[i],HeapArray[j]);
 }
 
-void main()
+int main()
 {
 	int i;
 	char * stuff []={"F","D","C","G","H","I","B","E","A"};
@@ -117,4 +120,6 @@ void main()
 		heap.Print(cout);
 	}
 	cout<<endl;
+
+	return 0;
 }
