@@ -1,2 +1,6 @@
-﻿  heapsort.cpp
+﻿  buffile.cpp
+  mkfile.cpp
+C:\Users\user\Documents\GitHub\FS_ch8\recfile.h(22,65): warning C5037: 'RecordFile<RecType>::Read': 클래스 템플릿 멤버의 확장 정의에는 기본 인수가 포함될 수 없습니다.
+C:\Users\user\Documents\GitHub\FS_ch8\recfile.h(33,72): warning C5037: 'RecordFile<RecType>::Write': 클래스 템플릿 멤버의 확장 정의에는 기본 인수가 포함될 수 없습니다.
+  코드를 생성하고 있습니다...
   FS_ch8.vcxproj -> C:\Users\user\Documents\GitHub\FS_ch8\Debug\FS_ch8.exe
